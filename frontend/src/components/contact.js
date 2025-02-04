@@ -29,7 +29,7 @@ const Contact = () => {
         }).then((res) => res.json());
 
         if (res.success) {
-            setSubmitted(true); // Show modal on success
+            setSubmitted(true); 
         }
     };
 

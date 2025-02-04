@@ -10,7 +10,7 @@ const Header = () => {
                 <ul className="nav-links">
                     <li>
                         <Link to="recipe-list" smooth={true} duration={500}>
-                            View Recipes
+                            View Dishes
                         </Link>
                     </li>
                     <li>
