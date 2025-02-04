@@ -12,25 +12,17 @@ dotenv.config();
 const app = express();
 app.use(cors());
 app.use(express.json());
-
-
-
- 
-
-
-
-
 // MongoDB connection
 mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(async () => {
-        console.log('Connected to MongoDB');
+        console.log('Connected to MongoDB successfully!');
 
     
     })
     .catch(err => console.error('MongoDB connection error:', err));
 
     app.get('/',(req,res)=>{
-        res.send("hello from server");
+        res.send("hello from serverside");
     })
 // Serve static files for images (uploads directory)
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
