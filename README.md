@@ -1,6 +1,6 @@
 # 🍽️ Recipe Finder Web Application
 
-A full-stack web application that allows users to discover recipes based on cooking time and manage their favorite dishes through a personalized profile. The platform provides an intuitive interface for browsing, saving, and uploading recipes.
+A MERN-stack (MongoDB, Express.js, React.js, Node.js) web application that allows users to discover recipes based on cooking time and manage their favorite dishes through a personalized profile. The platform provides an intuitive interface for browsing, saving, and uploading recipes.
 
 ---
 
@@ -28,4 +28,4 @@ A full-stack web application that allows users to discover recipes based on cook
 
 ### Database
 - MongoDB  
-- Mongoose ODM  
+- Mongoose ODM
